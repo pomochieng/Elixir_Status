@@ -6,7 +6,7 @@ a = [1, 2, 3]     # Will Match a bound to list
 
  4 = a            # Will Match 4 bound to a
 
- [a, b] = [ 1, 2, 3  ]           # Will not Match  coz the data types on both sides are the same but the elements are different.
+ [a, b] = [ 1, 2, 3  ]         # Will not Match  coz the data types on both sides are the same but the elements are different.
  
  a = [ [ 1, 2, 3  ]  ]          #Will match  a is bound to a list that has a list inside.
 
